@@ -22,16 +22,24 @@
             border-radius: 10px 0px 10px 0px;
             border: none;
         }
-        img{
+        #mae{
+            display: none;
             height: 300px;
             width: auto;
+            margin: 5px;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 id="1">Aula de autumalaca</h1>
-        <button onclick="sigma()">Click Jogos</button>
+        <h1 id="pai">Aula de autumalaca</h1>
+        <img id="mae">
+        <button id="irmao" onclick="sigma()">Click Jogos</button>
     </header>
     <script src="script.js"></script>
 </body>
