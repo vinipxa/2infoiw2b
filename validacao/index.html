@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form class="formLogin">
+        <h1 id="mogger">Validação de Formulário</h1>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <p id="avisoNome"></p>
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+            <p id="avisoSenha"></p>
+        </div>
+        <button type="submit" onclick="uga(event)">Moggar</button>
+    </form>
+    <p id="ide"></p>
+    <script src="script.js"></script>
+</body>
+</html>
