@@ -23,7 +23,7 @@ function sigma(){
     bu.id = "botaoJunior"
     bu.innerText = "junior"
     bu.onclick = figma
-    document.body.appendChild(bu)
+    document.getElementById("poggers").appendChild(bu)
 }
 };
 
@@ -33,17 +33,19 @@ function sigma(){
         var resultado = num1 + num2;
        document.getElementById('botaoJunior').innerText= (resultado)
        window.print()
-       if (!document.getElementById("botaoJr")){
+       if (!document.getElementById("botaojr")){
     const but = document.createElement('button')
     but.id = "botaojr"
     but.innerText = "jr"
     but.onclick = pigma
-    document.body.appendChild(but)
+    document.getElementById("poggers").appendChild(but)
 }
     }
 function pigma(){
+    document.getElementById("botaojr").style.display ='none'
     var nomeAlunoEtec = "Vinição gostosão";
     var idadeAluno = 16;
     var alturaAluno = 1.80;
     var estudandteAluno = true;
+    document.getElementById('pigma').innerHTML = `Nome:${nomeAlunoEtec}\n idade:${idadeAluno}\n altura:${alturaAluno}`
 }
